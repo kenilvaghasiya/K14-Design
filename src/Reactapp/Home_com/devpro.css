@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #262626;
+}
+
+.devpro {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.proname {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+p {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    .devpro {
+        font-size: 35px;
+        font-weight: 800;
+    }
+}
+
+.textFormate {
+    text-align: justify;
+}

@@ -1,0 +1,35 @@
+#cursor {
+    border: 2px solid #FE0F0F;
+    position: absolute;
+    height: 20px;
+    opacity: .5;
+    width: 20px;
+    border-radius: 50%;
+    transition: 200ms;
+    transition-timing-function: ease-out;
+    animation: asd .5s infinite alternate;
+}
+
+#cursor::after {
+    content: "";
+    border: 7px solid #262626;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    opacity: 0.5;
+    top: -12px;
+    left: -12px;
+    transform: 20ms;
+    transition-timing-function: ease-out;
+    animation: asd .5s infinite alternate;
+}
+
+@keyframes asd {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.7);
+    }
+}

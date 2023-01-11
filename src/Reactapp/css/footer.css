@@ -1,0 +1,37 @@
+.development {
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.logoimgk14 {
+    width: 174px;
+    height: 158px;
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+
+.linkfooter {
+    color: #3C3C3C;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.linkfooter:hover {
+    color: #FE0F0F;
+    text-decoration: none;
+}
+
+.footerhed {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    .boxasd {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

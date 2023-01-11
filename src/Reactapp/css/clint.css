@@ -1,0 +1,182 @@
+.mainBOx {
+    margin: 10px;
+    width: 80%;
+    height: 450px;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin: auto;
+    position: relative !important;
+    overflow: hidden;
+    background: url("../img/asd.png") !important;
+    border-radius: 25px;
+    /* backface-visibility: unset; */
+}
+
+.ReviewCard {
+    width: 500px;
+    height: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 70px;
+    background: linear-gradient(110.74deg, #FFFFFF -9.1%, rgba(255, 255, 255, 0.5986) 57%, rgba(255, 255, 255, 0) 106.71%);
+    border-radius: 25px;
+}
+
+.ClintReview {
+    width: 100%;
+}
+
+.mainreviewClint {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .ReviewCard {
+        display: none;
+    }
+    .mainreviewClint {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 25px;
+    }
+    .mainBOx {
+        margin: 10px;
+        width: 80%;
+        height: 450px;
+        margin: auto;
+        display: flex;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        overflow: scroll !important;
+        justify-content: center;
+        align-items: center;
+        position: relative !important;
+        overflow: hidden;
+        background: url("../img/asd.png") !important;
+        border-radius: 25px;
+    }
+    .mainCont {
+        position: relative !important;
+        right: 0px !important;
+        top: 0px !important;
+    }
+}
+
+.ReviewCardContener {
+    display: flex;
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.ReviewCardcontent-name {
+    font-size: 35px;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.ReviewCardcontent-web {
+    font-size: 20px;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ReviewCardcontent-data {
+    font-size: 14px;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ReviewCardImg {
+    width: 30%;
+    object-fit: inherit;
+}
+
+.ReviewCardcontent {
+    width: 70%;
+    overflow: hidden;
+}
+
+.ReviewCardImg img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.mainBOx::-webkit-scrollbar {
+    display: none;
+}
+
+.mainBOx2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainCont {
+    position: absolute;
+    right: -100px;
+    top: -10px;
+}
+
+.imgRes {
+    width: 100%;
+    position: absolute;
+}
+
+.iamgeClint {
+    position: relative;
+    box-shadow: 0px 4px 10px #262626;
+    background-color: beige;
+    border-radius: 100%;
+    margin: 5px;
+    transition: 0.8s;
+    overflow: hidden;
+}
+
+.iamgeClint:hover {
+    width: 150px !important;
+    height: 150px !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    filter: blur(0px);
+}
+
+.iamgeClint:hover~.classCM2 {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.iamgeClint:hover~.classCM4 {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.iamgeClint:hover~.classCM1 {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.classCM1 {
+    width: 80px;
+    height: 80px;
+}
+
+.classCM2 {
+    width: 60px;
+    height: 60px;
+}
+
+.classCM3 {
+    width: 50px;
+    height: 50px;
+}
+
+.classCM4 {
+    width: 40px;
+    height: 40px;
+}

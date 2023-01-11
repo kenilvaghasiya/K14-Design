@@ -1,0 +1,173 @@
+.mainAbout {
+    padding-top: 100px;
+}
+
+.MapContainer {
+    /* height: 500px; */
+    background-color: #FBFBFC;
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.indianImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.indianImg img {
+    max-width: 433px;
+    max-height: 459px;
+}
+
+.TitelOffice {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.addText {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.CarouselCSS {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cardCarosal {
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(6px 7px 7px rgba(0, 0, 0, 0.17));
+    margin-bottom: 20px;
+}
+
+.cardCarosal img {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.mainCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardName {
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: 600;
+    padding-left: 10px;
+    width: 100%;
+    height: 55px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-right: 10px;
+}
+
+.cardPo {
+    font-weight: 550;
+    color: gray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cardAbout {
+    margin-top: 5px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.Team {
+    padding-left: 10px;
+    margin-top: 50px;
+    padding-right: 10px;
+}
+
+.ourTeamimg {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.ourTeamimg img {
+    width: 100%;
+}
+
+.linkedIn {
+    display: none;
+}
+
+.cardCarosal:hover .linkedIn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(38, 38, 38, 0.47);
+    border-radius: 20px;
+}
+
+.btnLinkwedIn {
+    border: #007bff solid 4px;
+    width: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .cardCarosal {
+        width: 90%;
+        position: relative;
+        background-color: white;
+        border-radius: 20px;
+        filter: drop-shadow(6px 7px 7px rgba(0, 0, 0, 0.17));
+        margin-bottom: 20px;
+    }
+    .cardCarosal img {
+        width: 100%;
+        height: 200px;
+        border-radius: 20px;
+    }
+}
